@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Creative Studio landing page.">
+    <meta name="author" content="Devcrud">
+    <title>3d model</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Studio main styles -->
+    <link rel="stylesheet" href="assets/css/creative-studio.css">
+    <!-- for 3d model  -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.7.1/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@^0.163.0/build/three.module.min.js"
+          }
+        }
+    </script>
+
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer-module.min.js"></script>
+
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@google/model-viewer-effects/dist/model-viewer-effects.min.js"></script>
+
+    <style>
+        .parentcard {
+            display: flex;
+            margin-top: 90px;
+            margin-right: 100px;
+        }
+
+        .parentcard .card {
+            margin-left: 30px;
+            width: 80%;
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/download.png"
+                    alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#3dmodel">3d models</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+
+            <h1 class="title">Welcome to Creators 3D</h1>
+            <h6 class="subtitle">A platform for 3D artists and studio owners to grow their business</h6>
+            <div class="buttons text-center">
+                <a href="#service" class="btn btn-primary rounded w-lg btn-lg my-1">Get started</a>
+            </div>
+        </div>
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- Box -->
+    <div class="box text-center">
+        <div class="box-item">
+            <i class="ti-vector"></i>
+            <h6 class="box-title">UX/UI Design</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi, repellat esse laborum
+                explicabo quia.</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-filter"></i>
+            <h6 class="box-title">Web Development</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi, repellat esse laborum
+                explicabo quia.</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-mobile"></i>
+            <h6 class="box-title">App Design</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi, repellat esse laborum
+                explicabo quia.</p>
+        </div>
+    </div>
+    <!-- End of Box -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-4">
+                    <img src="assets/imgs/high_volume.webp"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"
+                        class="w-100 img-thumbnail mb-3">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-subtitle mb-0">We Create</h6>
+                    <h6 class="section-title mb-3">Work On Your Own Terms</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cupiditate quas, amet harum
+                        perferendis minus, cum dolorum obcaecati iste aspernatur voluptatum aut.</p>
+                    <p>Cum laudantium unde nemo doloribus eligendi quodarum ea vitae dicta. Accusantium vero, ea? Alias,
+                        atque libero. Id, ut harum. </p>
+                    <p>consectetur adipisicing elit. Omnis quidem, quos iure a dolorum illum culpa quia nemo soluta,
+                        ratione harum beatae minus doloribus consectetur! Similique tempora sunt doloribus molestias.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- About Section with bg -->
+    <section class="has-bg-img py-md">
+        <div class="container text-center">
+            <h6 class="section-subtitle">We See</h6>
+            <h6 class="section-title mb-6">What Other Don't See.</h6>
+            <div class="widget mb-4">
+                <div class="widget-item">
+                    <i class="ti-notepad"></i>
+                    <h4>Planning</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-layout"></i>
+                    <h4>Mockup</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-filter"></i>
+                    <h4>Develope</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-thumb-up"></i>
+                    <h4>Provide</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of About Sectoin -->
+    <section id="3dmodel">
+        <!-- static models   start-->
+        <div class="parentcard">
+            <div class="card">
+                <p>car</p>
+                <model-viewer id="blendViewer1" camera-controls touch-action="pan-y" ar
+                    src="./assets/3dmodels/first.glb" alt="A 3D model of an astronaut">
+                    <effect-composer render-mode="quality" msaa="8">
+                        <color-grade-effect contrast="0.5" saturation="-1" opacity="1"
+                            blend-mode="default"></color-grade-effect>
+                    </effect-composer>
+
+                </model-viewer>
+            </div>
+
+            <div class="card">
+                <p>soldier man</p>
+                <model-viewer id="blendViewer1" camera-controls touch-action="pan-y" ar
+                    src="./assets/3dmodels/soldierman.glb" alt="A 3D model of an astronaut">
+                    <effect-composer render-mode="quality" msaa="8">
+                        <color-grade-effect contrast="0.5" saturation="-1" opacity="1"
+                            blend-mode="default"></color-grade-effect>
+                    </effect-composer>
+
+                </model-viewer>
+            </div>
+
+            <div class="card">
+                <p>car</p>
+                <model-viewer id="blendViewer1" camera-controls touch-action="pan-y" ar
+                    src="./assets/3dmodels/nissan.glb" alt="A 3D model of an astronaut">
+                    <effect-composer render-mode="quality" msaa="8">
+                        <color-grade-effect contrast="0.5" saturation="-1" opacity="1"
+                            blend-mode="default"></color-grade-effect>
+
+                </model-viewer>
+            </div>
+        </div>
+        <div class="parentcard">
+            <div class="card">
+                <p> the napoleon hill</p>
+                <model-viewer id="blendViewer1" camera-controls touch-action="pan-y" ar
+                    src="./assets/3dmodels/napoleonhill.glb" alt="A 3D model of an astronaut">
+                    <effect-composer render-mode="quality" msaa="8">
+                        <color-grade-effect contrast="0.5" saturation="-1" opacity="1"
+                            blend-mode="default"></color-grade-effect>
+                    </effect-composer>
+
+                </model-viewer>
+            </div>
+
+            <div class="card">
+                <p>The soldier</p>
+                <model-viewer id="blendViewer1" camera-controls touch-action="pan-y" ar
+                    src="./assets/3dmodels/soldier.glb" alt="A 3D model of an astronaut">
+                    <effect-composer render-mode="quality" msaa="8">
+                        <color-grade-effect contrast="0.5" saturation="-1" opacity="1"
+                            blend-mode="default"></color-grade-effect>
+                    </effect-composer>
+
+                </model-viewer>
+            </div>
+            <div class="card">
+                <p> sheep</p>
+                <model-viewer id="blendViewer1" camera-controls touch-action="pan-y" ar
+                    src="./assets/3dmodels/sheep.glb" alt="A 3D model of an astronaut">
+                    <effect-composer render-mode="quality" msaa="8">
+                        <color-grade-effect contrast="0.5" saturation="-1" opacity="1"
+                            blend-mode="default"></color-grade-effect>
+
+                </model-viewer>
+            </div>
+        </div>
+        </div>
+
+
+        <script type="module">
+            const blendViewer1 = document.querySelector("model-viewer#blendViewer1");
+            const blendEffect1 = blendViewer1.querySelector('color-grade-effect');
+            const opacity1 = blendViewer1.querySelector('#opacity1');
+            const mode1 = blendViewer1.querySelector('#blend-mode1');
+
+            opacity1.addEventListener('input', (e) => blendEffect1.opacity = e.target.value);
+            mode1.addEventListener('change', (e) => blendEffect1.blendMode = e.target.value);
+
+
+        </script>
+        <!-- static models   end-->
+
+
+        <div class="container">
+            <div class="row align-items-center"
+                style="background-color: rgb(2, 2, 25); border: 2px black; border-radius: 15px; height: 400px; margin: 40px; color: white;">
+                <div class="col-md-5 col-lg-4" style="width: 300px;">
+                    <img src="assets/imgs/new-to-3d.webp"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"
+                        class="w-100 img-thumbnail mb-3">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-title mb-3" style="font-weight: 800;">New To 3D?</h6>
+                    <p> Upload your model and get a direct link to easily share it </p>
+
+                    <p>Whether you’re just getting started, an experienced artist, or run a 3D content creation
+                        business, there are jobs available for you.</p>
+                    <div class="buttons text-center" style="margin-right: 470px;">
+                        <a href="modelchecker.html" class="btn btn-primary rounded w-lg btn-lg my-1">Get started</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- End of Team Sectoin -->
+
+
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Testimonial</h6>
+            <h6 class="section-title text-center mb-6">What Our Clients Says</h6>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-wrapper">
+                        <div class="img-holder">
+                            <img src="assets/imgs/avatar-5.jpg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        </div>
+                        <div class="body">
+                            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                                doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci
+                                nihil.</p>
+                            <h6 class="title">Richard Reb</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-wrapper">
+                        <div class="img-holder">
+                            <img src="assets/imgs/avatar-6.jpg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        </div>
+                        <div class="body">
+                            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                                doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci
+                                nihil.</p>
+                            <h6 class="title">John Doe</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Testimonial Section -->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <iframe width="100%" height="475" src="https://www.youtube.com/embed/TP4THzsAa3M" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="infos">
+                    <h6 class="section-subtitle">Get Here</h6>
+                    <h6 class="section-title mb-4">Contact Us</h6>
+
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p> 12345 Fake ST NoWhere AB Country</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>info@website.com</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-world"></i>
+                        <div class="mb-0">
+                            <h5>example.com</h5>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <h6 class="section-subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" id="exampleInputPassword1"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="7"
+                                class="form-control form-control-lg" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-3">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">ABOUT US</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="assets/imgs/download.png"
+                                    alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                                <h6>Creative Studio</h6>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nobis fugit maxime
+                                deleniti minus optio accusamus, quam maiores explicabo sunt.</p>
+                            <p class="mt-3">
+                                Copyright
+                                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                                    class="d-inline text-primary" href="http://www.devcrud.com">DevCRUD</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">USEFUL LINKS</h6>
+                        </li>
+                        <li class="list-body">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#about">About</a>
+                                    <a href="#service">Service</a>
+                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="#testmonail">Testimonial</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#team">Team</a>
+                                    <a href="#blog">Blog</a>
+                                    <a href="#">Faq</a>
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">CONTACT INFO</h6>
+                        </li>
+                        <li class="list-body">
+                            <p>Contact us and we'll get back to you within 24 hours.</p>
+                            <p><i class="ti-location-pin"></i> 12345 Fake ST NoWhere AB Country</p>
+                            <p><i class="ti-email"></i> info@website.com</p>
+                            <div class="social-links">
+                                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Studio js -->
+    <script src="assets/js/creative-studio.js"></script>
+
+</body>
+
+</html>
